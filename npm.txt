@@ -1,0 +1,5 @@
+$ npm add node-sass
+npm install react-icons --save
+$ npm  add redux redux-logger react-redux
+react motion-framer
+$ npm add redux-thunk

@@ -1,0 +1,14 @@
+::-webkit-scrollbar{
+  display: none;
+}
+
+
+.flex{
+  display: flex;
+}
+
+.flex-d-r{
+  flex-direction: row;
+}
+
+

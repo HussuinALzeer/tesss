@@ -1,0 +1,78 @@
+.Todocounter{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .addTodo{
+       display: flex;
+       justify-content: center;
+       margin: 20px; 
+        input{
+
+            padding: 10px 20px;
+            outline: none;
+            border: 3px #a7a7a7 solid;
+        }
+
+        .btn-add{
+            background-color: #a7a7a7;
+            padding: 10px;
+            margin-left: 10px;
+            cursor: pointer;
+
+            svg{
+                color: white !important;
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+    .List{
+        min-height: 300px;
+        width: 500px;
+        // background-color: #a7a7a7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .Todo{
+
+            margin: 10px;
+            border: 2px #a7a7a7 solid;
+            text-align: center;
+            min-width: 250px;
+
+            &.true{
+                background-color: greenyellow;
+                color: black;
+            }
+
+            &.false{
+                background-color: red;
+            }
+        }
+
+        .delete{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+
+            background-color: rgb(54, 50, 50);
+            padding: 10px;
+            margin: 10px;
+            
+            svg{
+                color: white;
+            }
+            
+        }
+    }
+}
+
+
+
